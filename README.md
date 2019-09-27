@@ -2,7 +2,6 @@
 
 ## Requirement 
 1. NGINX with lua module
-2. cjson lua module
 
 
 ## How to use It !!
