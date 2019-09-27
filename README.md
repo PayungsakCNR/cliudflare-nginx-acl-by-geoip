@@ -6,19 +6,19 @@
 
 
 ## How to use It !!
-*** Add access_by_lua_file to vhost file in location block ***
+*** Add access_by_lua_file to vhost file in location block *** <br/>
 
-server {
-  listen 80;
-  listen [::]:80;
+server { <br/>
+  listen 80; <br/>
+  listen [::]:80; <br/>
+  <br/>
+  ... <br/> <br/>
   
-  ...
-  
-  location / {
-    access_by_lua_file '/path/to/lua/file/access.lua';
-		root /path/to/site/file/;
-		index index.html;
-  }
+  location / { <br/> 
+    access_by_lua_file '/path/to/lua/file/access.lua'; <br/>
+		root /path/to/site/file/; <br/>
+		index index.html; <br/>
+  } <br/>
+<br/>
 
-
-}
+} <br/>
